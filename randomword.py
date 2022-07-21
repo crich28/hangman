@@ -35,12 +35,12 @@ def worddisplay(word):
         check.append(guess)    
     if wrong == 6:
         print('Thats not correct')
-        playagain()
+        
         
     if wrong <=5:
         print(result)    
         print('You got it right!')
-        playagain()    
+    playagain()    
         
                 
                  
