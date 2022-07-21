@@ -47,7 +47,7 @@ def worddisplay(word):
     
 def playagain():
     again = input('Would you like to play again? ')
-    if again == 'yes'.casefold():
+    if again.casefold() == 'yes':
         worddisplay(wordbank())
     print('Next time then')
 
